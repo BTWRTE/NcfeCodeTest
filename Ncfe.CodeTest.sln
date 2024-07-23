@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncfe.CodeTest", "Ncfe.CodeTest\Ncfe.CodeTest.csproj", "{F84512EF-EFF9-4A3E-BE9D-5BCD5019FB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{CA1C435B-B3A8-43B1-85F6-2C09F54E9E59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{F84512EF-EFF9-4A3E-BE9D-5BCD5019FB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84512EF-EFF9-4A3E-BE9D-5BCD5019FB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84512EF-EFF9-4A3E-BE9D-5BCD5019FB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1C435B-B3A8-43B1-85F6-2C09F54E9E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1C435B-B3A8-43B1-85F6-2C09F54E9E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1C435B-B3A8-43B1-85F6-2C09F54E9E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1C435B-B3A8-43B1-85F6-2C09F54E9E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCF16A07-11C6-4CB5-B010-45DEA357216D}
 	EndGlobalSection
 EndGlobal
